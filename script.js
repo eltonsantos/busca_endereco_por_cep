@@ -1,6 +1,9 @@
+/*
+* Desenvolvida por Elton Santos - elton.melo.santos@gmail.com
+*/
 function getEndereco(cep) {
 	if($.trim(cep) != ""){
-		$("#loadingCep").html('Pesquisando...');
+		$("#loadingCep").html('<b>Resultado</b>');
 		$.getScript("http://cep.republicavirtual.com.br/web_cep.php?formato=javascript&cep="+cep,
 			function(){
 				if (resultadoCEP["resultado"] != 0) {

@@ -3,7 +3,7 @@
 <head>
 	<title>Localização de endereço através do CEP usando jQuery</title>
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
-	<script src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -19,13 +19,16 @@
 	<input type="button" id="getEndereco" value="Pesquisar" />
 	<br />
 	<p id="loadingCep"></p>
-	Rua:
+	Rua:<br />
 	<input type="text" readonly="readonly" id="logradouro" />
-	Bairro:
+	<br />
+	Bairro:<br />
 	<input type="text" readonly="readonly" id="bairro" />
-	Cidade:
+	<br />
+	Cidade:<br />
 	<input type="text" readonly="readonly" id="cidade" />
-	Estado:
+	<br />
+	Estado:<br />
 	<input type="text" readonly="readonly" id="estado" />
 </body>
 </html>
